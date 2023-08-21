@@ -21,7 +21,7 @@ int main(){
 	printf("Enter 6 bit input(0to63):\t");
 	scanf("%d",&input);
 	
-	if(input<0||input>0){
+	if(input<0||input>63){
 		printf("Invalid Input!!\n");
 		return 1;
 	}
